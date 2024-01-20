@@ -36,7 +36,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 42px;
+  /* min-width: 42px; */
+  flex-shrink: 0;
 }
 
 .modal-content{
