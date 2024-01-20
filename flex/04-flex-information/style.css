@@ -32,10 +32,8 @@ img {
   display: flex;
   flex-direction: column;
   text-align: center;
-  flex-basis: 200px;
+  max-width: 200px;
   flex-wrap: wrap;
-  padding:0;
-  margin:0;
   
 }
 /* do not edit this footer */
