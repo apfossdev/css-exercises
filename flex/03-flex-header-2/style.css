@@ -54,16 +54,14 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 16px;
+  margin: 0;
+  padding: 0;
 
 }
 
-.left-end{
-  display: flex;
-  gap:16px;
-
-}
-
+.left-end,
 .right-end{
   display: flex;
-  gap: 16px;
+  gap:16px;
+  align-items: center;
 }
