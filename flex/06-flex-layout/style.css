@@ -14,6 +14,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+    
   
 
 }
@@ -22,15 +23,20 @@ body {
 .right-links {
   display: flex;
   gap: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  
 }
 
 ul {
   list-style-type: none;
+  
 }
 
 a {
   text-decoration: none;
   color: rgb(107,107,107);
+
 }
 
 .content {
@@ -38,6 +44,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 8px;
 }
 
 img {
